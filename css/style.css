@@ -352,6 +352,10 @@ input:focus {
     width: 32%;
 }
 
+.populaires .section-title {
+    margin-bottom: 33px;
+}
+
 .populaires-title {
     display: flex;
     justify-content: space-between;
@@ -360,8 +364,12 @@ input:focus {
 
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
 }
+
+.populaires-cards {
+    gap: 33px;
+}
+
 
 .populaires-cards img {
     width: 33%;
@@ -417,8 +425,8 @@ input:focus {
     margin: 15px 0;
 }
 
-@media (min-width: 1440px){
-    body{
+@media (min-width: 1440px) {
+    body {
         padding: 0 5%;
     }
 }
@@ -477,17 +485,31 @@ input:focus {
         margin-top: 0;
     }
 
-    .populaires{
+    .populaires {
         margin-top: 50px;
         width: 100%;
     }
 
-    .populaires .populaires-cards{
+    .populaires .populaires-cards {
         display: flex;
+        gap: 20px;
+        height: 146px;
     }
 
-    .populaires .populaires-cards .card{
+    .populaires .populaires-cards a {
         width: calc(33.33% - 20px);
+        /* Utilisation de calc pour déduire l'espace du gap */
+    }
+
+    .populaires .populaires-cards .card {
+        border-radius: 20px;
+        padding: 0;
+        height: fit-content;
+        border: 5px solid #ffffff;
+    }
+
+    .populaires .populaires-cards img {
+        width: 33%;
     }
 
     .populaires-cards .card-title {
@@ -506,7 +528,7 @@ input:focus {
         padding: 30px;
         margin-bottom: 70px;
     }
-    
+
     .activites .row-activites {
         display: flex;
         justify-content: space-between;
@@ -592,7 +614,7 @@ input:focus {
         margin-top: 50px;
     }
 
-    .nav ul li{
+    .nav ul li {
         padding-bottom: 20px;
     }
 
@@ -614,7 +636,8 @@ input:focus {
         border-bottom: 3px solid #f2f2f2;
     }
 
-    .nav ul .nav-hebergements:hover, .nav-activites:hover {
+    .nav ul .nav-hebergements:hover,
+    .nav-activites:hover {
         border-top: none;
         border-bottom: 3px solid #0065FC;
         color: #0065FC;
@@ -709,7 +732,7 @@ input:focus {
         margin: 0;
     }
 
-    .populaires .populaires-cards .card{
+    .populaires .populaires-cards .card {
         width: 100%;
         padding: 0;
     }
