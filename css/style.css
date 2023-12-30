@@ -101,6 +101,7 @@ h4 {
 
 .nav ul li {
     padding-top: 20px;
+    border-top: 2px solid transparent;
 }
 
 .nav ul li:hover {
