@@ -112,7 +112,6 @@ h4 {
 
 .body-head .headline h1 {
     margin-bottom: 8px;
-    font-size: 22px;
 }
 
 .body-head .headline p {
@@ -290,14 +289,12 @@ input:focus {
 
 .hebergements .grid-hebergements h4 {
     margin: 30px 0 0 0;
-    font-size: 18px;
 }
 
 /* ACTIVITES */
 
 .activites h1 {
     padding-left: 30px;
-    font-size: 22px;
 }
 
 .activites {
@@ -498,7 +495,6 @@ input:focus {
 
     .populaires .populaires-cards a {
         width: calc(33.33% - 20px);
-        /* Utilisation de calc pour déduire l'espace du gap */
     }
 
     .populaires .populaires-cards .card {
@@ -810,13 +806,10 @@ input:focus {
     .main-container .activites {
         margin-top: 50px;
         height: auto;
-        /* Modifier la hauteur en auto pour s'adapter au contenu */
         width: 100%;
         display: flex;
         flex-direction: column;
-        /* Affichage en colonne */
         align-items: center;
-        /* Centrer le contenu */
         margin-bottom: 700px;
     }
 
@@ -828,13 +821,9 @@ input:focus {
 
     .main-container .activites .row-activites {
         display: block;
-        /* Utilisation de display block pour chaque élément */
-        /* Espacement entre les éléments */
         padding: 30px 15px;
-        /* Ajout de padding pour l'espacement sur les côtés */
         width: 100%;
         box-sizing: border-box;
-        /* Inclure les paddings dans la largeur totale */
     }
 
     .main-container .activites .row-activites .card {
@@ -863,10 +852,6 @@ input:focus {
         flex-direction: row;
         justify-self: flex-start;
         margin: 0;
-    }
-
-    .main-container .activites .row-activites .card-content .card-txt h4 {
-        font-size: 16px;
     }
 
     .foot {
